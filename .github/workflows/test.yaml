@@ -5,7 +5,7 @@ on:
     branches:
       - main
 jobs:
-  terraform-apply:
+  test_self-hosted_runner:
     runs-on: test-runner
 
     steps:      
