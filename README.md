@@ -9,6 +9,7 @@ Let's go over steps to set up a GitHub Actions self-hosted runner.
 ---
 
 📋 **Prerequisites**
+
 Supported OS: Linux (x64, ARM32, ARM64), macOS (x64, ARM64), or Windows (x64, ARM64).
 
 Permissions: You must have admin access to the repository or organization.
