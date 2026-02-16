@@ -71,6 +71,7 @@ Never use self-hosted runners on public repositories. > Forking a public repo al
 Updates: The runner software auto-updates, but ensure your OS patches are current.
 
 Labels: Use custom labels (e.g., runs-on: [self-hosted, linux, hiro-dev-runner, ansible-runner]) to route specific jobs to specific hardware.
+
 ---
 **Troubleshooting**
 If you did not set the run process as a service, the process is killed once you close the terminal window. This marks your runner as "Offline" in GitHub. To set up the service, navigate into the actions-runner directory and follow **Running as a Service (Recommended)** step above.
