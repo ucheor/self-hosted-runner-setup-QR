@@ -1,0 +1,12 @@
+name: GitHub-Runner Test
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  terraform-apply:
+    runs-on: test-runner
+
+    steps:      
+      - run: echo "Test Completed ..."
