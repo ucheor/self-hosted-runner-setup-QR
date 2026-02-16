@@ -6,6 +6,8 @@ Although self-hosted runners can be more expensive than GitHub-hosted runners, t
 
 Let's go over steps to set up a GitHub Actions self-hosted runner.
 
+---
+
 📋 **Prerequisites**
 Supported OS: Linux (x64, ARM32, ARM64), macOS (x64, ARM64), or Windows (x64, ARM64).
 
