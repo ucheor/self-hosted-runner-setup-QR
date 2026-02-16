@@ -1,5 +1,11 @@
 **Setting Up a GitHub Actions Self-Hosted Runner**
 
+Using a self-hosted runner in GitHub Actions gives you full control over your CI/CD environment. You can run jobs on your own servers or cloud VMs, install custom dependencies, access private VPC resources, and meet strict security or compliance requirements. This is ideal for teams that need consistent performance, specialized tooling, or access to internal systems.
+
+Although self-hosted runners can be more expensive than GitHub-hosted runners, they are often better suited for resource-heavy or long-running workflows—such as large builds, high-memory jobs, or GPU workloads—where the added control and performance flexibility outweigh the higher operational cost.
+
+Let's go over steps to set up a GitHub Actions self-hosted runner.
+
 📋 **Prerequisites**
 Supported OS: Linux (x64, ARM32, ARM64), macOS (x64, ARM64), or Windows (x64, ARM64).
 
