@@ -18,6 +18,7 @@ Go to Settings > Actions > Runners.
 Click New self-hosted runner.
 
 Select your Operating System and Architecture.
+
 ---
 
 ![set up runner](images/set_up_runner.png)
@@ -30,6 +31,7 @@ To start the runner manually for testing:
 
 Bash
 ./run.sh
+
 ---
 ![self-hosted runner setup](images/self_hosted_runner_set_up.png)
 ---
@@ -46,12 +48,14 @@ sudo ./svc.sh start
 Windows:
 
 During the ./config.cmd step, the script will ask if you want to run the runner as a service. Select Y.
+
 ---
 📝 **Usage in Workflow Files**
 
 To target your new runner, update the runs-on field in your .github/workflows/*.yaml. Switch value from ubuntu-latest (for example) to self-hosted or any other label you assigned to your runner. 
 
 Initiate your workflow as usual based on trigger.
+
 ---
 ![workflow initiated](images/workflow_initiated.png)
 ---
@@ -59,8 +63,9 @@ Initiate your workflow as usual based on trigger.
 ---
 
 ⚠️ **Security Best Practices**
+
 ---
-**IMPORTANT**
+**IMPORTANT** - 
 Never use self-hosted runners on public repositories. > Forking a public repo allows users to run malicious code on your machine via Pull Requests. Only use self-hosted runners for private repositories.
 
 Updates: The runner software auto-updates, but ensure your OS patches are current.
